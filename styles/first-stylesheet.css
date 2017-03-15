@@ -6,6 +6,23 @@ body {
   margin: 0;
   background-color: rgba(172, 199, 219, 1);
 }
+p {
+  margin: 0 1rem 0;
+}
+a {
+  color: rgba(5, 16, 71, 1);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(253, 245, 6, 1);
+}
+.project-figures img{
+  width: 30%;
+}
+.project-figures figcaption {
+  font-size: .5rem;
+  width: 30%;
+}
 .homepage-header {
   background-image: url(../images/washington-coast.jpg);
   margin: 0 auto 0;
@@ -42,18 +59,16 @@ body {
 .project-titles {
   font-size: 2rem;
   text-align: center;
-  margin: 2rem;
+  color: rgba(96, 6, 5, 1);
+  margin: 3rem 0 1rem 0;
 }
-p {
-  margin: 0 1rem 0;
-}
-a {
-  color: rgba(5, 16, 71, 1);
-  text-decoration: none;
-}
-a:hover {
-  color: rgba(253, 245, 6, 1);
-}
-.project-figures img{
-  width: 30%;
+.footer {
+  margin: 2rem 0 0 0;
+  padding: .5rem 0 .5rem 0;
+  border: 2px solid lightblue;
+  background-color: lightblue;
+  font-size: .75rem;
+  font-family: fantasy, Arial;
+  text-align: center;
+  color: rgba(1, 2, 100, 1);
 }
