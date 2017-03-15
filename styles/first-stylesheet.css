@@ -2,36 +2,48 @@ html {
   font-family: Tahoma;
   font-size: 16px;
 }
+
 body {
   margin: 0;
   background-color: rgba(172, 199, 219, 1);
 }
+
 p {
   margin: 0 1rem 0;
 }
+
 a {
   color: rgba(5, 16, 71, 1);
   text-decoration: none;
 }
+
 a:hover {
   color: rgba(253, 245, 6, 1);
 }
+
 .project-figures img{
   width: 30%;
 }
+
 .project-figures figcaption {
-  font-size: .5rem;
+  font-size: 0.5rem;
   width: 30%;
 }
+
 .homepage-header {
   background-image: url(../images/washington-coast.jpg);
   margin: 0 auto 0;
   padding: 0 0 20rem 0;
-  height: auto;
   width: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.about-me-header {
+  background-color: rgba(76, 76, 81, 1);
+  padding: 1rem;
+}
+
 .homepage-title {
   font-family: Optima, Tacoma;
   font-size: 4rem;
@@ -41,34 +53,65 @@ a:hover {
   padding: 5rem 7rem 0 0;
   margin: 0;
 }
+
+.about-me-title {
+  font-size: 2rem;
+  color: white;
+  text-align: left;
+}
+
 .homepage-header-navigation {
   text-align: right;
   list-style-position: inside;
   padding: 0 7rem 0 0;
   margin: 0;
 }
+
 .home-navigation-list {
   list-style-image: url(../images/evergreen.png);
 }
+
 .body-header {
   font-size: 2.5rem;
   font-family: Impact;
   text-align: center;
   color: rgba(6, 5, 96, 1);
 }
+
 .project-titles {
   font-size: 2rem;
   text-align: center;
   color: rgba(96, 6, 5, 1);
   margin: 3rem 0 1rem 0;
 }
+
+.bio {
+  background-color: rgba(150, 151, 252, 1);
+  margin: 2rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border: 2px solid blue;
+}
+
+.more-bio {
+  background-color: rgba(155, 247, 156, 1);
+  margin: 0 auto 0;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border: 2px solid green;
+  width: 50%;
+}
+
 .footer {
   margin: 2rem 0 0 0;
-  padding: .5rem 0 .5rem 0;
+  padding: 0.5rem 0 0.5rem 0;
   border: 2px solid lightblue;
   background-color: lightblue;
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-family: fantasy, Arial;
   text-align: center;
   color: rgba(1, 2, 100, 1);
+}
+.footer ul {
+  font-family: Tahoma;
+  text-decoration: none;
+  list-style: none;
 }
