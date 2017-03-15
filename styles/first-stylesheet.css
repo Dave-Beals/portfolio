@@ -1,0 +1,43 @@
+html {
+  font-family: Tahoma;
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  background-color: rgba(172, 199, 219, 1);
+}
+.homepage-header {
+  background-image: url(../images/washington-coast.jpg);
+  margin: 0 auto 0;
+  padding: 0 0 20rem 0;
+  height: auto;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 1rem 1rem 1rem #888888;
+}
+.homepage-title {
+  font-family: Optima;
+  font-size: 4rem;
+  color: rgba(36, 34, 34, 1);
+  text-align: right;
+  font-style: italic;
+  padding: 5rem 7rem 0 0;
+  margin: 0;
+}
+.homepage-header-navigation {
+  text-align: right;
+  list-style-position: inside;
+  padding: 0 7rem 0 0;
+  margin: 0;
+}
+.home-navigation-list {
+  list-style-image: url(../images/evergreen.png);
+}
+a {
+  color: rgba(5, 16, 71, 1);
+  text-decoration: none;
+}
+a:hover {
+  color: rgba(253, 245, 6, 1);
+}
