@@ -17,8 +17,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: rgba(253, 245, 6, 1);
+/*a:hover {
+  color: rgba(253, 245, 6, 1);*/
 }
 
 .project-figures img{
@@ -45,12 +45,11 @@ a:hover {
 }
 
 .homepage-title {
-  font-family: Optima, Tacoma;
-  font-size: 4rem;
+  font-family: 'Poiret One', cursive;
+  font-size: 5rem;
   color: rgba(36, 34, 34, 1);
   text-align: right;
-  font-style: italic;
-  padding: 5rem 7rem 0 0;
+  padding: 5rem 5rem 0 0;
   margin: 0;
 }
 
@@ -63,12 +62,22 @@ a:hover {
 .homepage-header-navigation {
   text-align: right;
   list-style-position: inside;
-  padding: 0 7rem 0 0;
+  padding: 0 5rem 0 0;
   margin: 0;
 }
 
 .home-navigation-list {
   list-style-image: url(../images/evergreen.png);
+}
+
+.nav-link {
+  font-size: 16px;
+  color: inherit;
+  transition: font-size 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.nav-link:hover {
+  font-size: 1.25rem;
 }
 
 .body-header {
