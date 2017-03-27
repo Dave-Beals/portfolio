@@ -37,7 +37,7 @@ h2 {
 .homepage-header {
   background-image: url(../images/washington-coast.jpg);
   margin: 0 auto 0;
-  padding: 0 0 20rem 0;
+  padding: 0 0 10rem 0;
   width: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -91,11 +91,28 @@ h2 {
   color: rgba(6, 5, 96, 1);
 }
 
+
 .project-titles {
   font-size: 2rem;
   text-align: center;
   color: rgba(96, 6, 5, 1);
   margin: 3rem 0 1rem 0;
+}
+
+.about-nav li:nth-child(1) {
+  color: red;
+}
+
+.about-nav li:nth-child(2) {
+  color: yellow;
+}
+
+.about-nav li:nth-child(3) {
+  color: blue;
+}
+
+.about-nav li:nth-child(4) {
+  color: white;
 }
 
 .bio {
