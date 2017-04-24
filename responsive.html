@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Web Design</title>
+    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  </head>
+  <body>
+    <header class="about-me-header">
+      <h1 class="about-me-title">Responsive Web Design</h1>
+        <nav>
+          <ul class="about-nav">
+            <li class="nav-link"><a href="index.html" title="Home">Home</a></li>
+            <li class="nav-link"><a href="about-me.html" title="About Me">Bio</a></li>
+            <li class="nav-link"><a href="">More</a></li>
+            <li class="nav-link"><a href="">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <article class="responsive">
+        <h2>Responsive Web Design to the Rescue</h2>
+          <p>With the endless variety of options through which a user can view a webpage,
+          responsive web design maximizes how effective your website can be to all users.
+          Rather than designing separate website options for computers, tablets, smartphones, etc.,
+          a single website option that incorporates responsive design can retrieve information
+          about the user and adapt itself. The website can retrieve the device size and adjust
+          the layout, sizes of images and fonts, and prioritize certain content when viewed on a mobile
+          device or the user shrinks the browswer window.</p>
+          <p>The prioritization of content is an especially important component of responsive
+          design. A smaller screen means less real estate in the browser for text and images, and
+          so the layout needs to adapt to keep font at a readible size, which is especially. Some of the methods
+          for achieving this can be reducing image size and prominence, consolidate layout columns into a
+          longer scrolling main column, and collapsing menus into dropdowns. Incorporating these
+          concepts into the design means the users doesn't need to make do with websites that are
+          difficult to read or unintuitive to navigate and use.</p>
+      </article>
+    </main>
+    <aside class="responsive-quiz">
+      <h2>More about your website</h2>
+        <form>
+          <label class="questions">Your company or website name:
+            <input type="text" name="company">
+          </label>
+
+          <fieldset class="questions">
+            <legend>Why are you interested in responsive design for your website?</legend>
+            <label>
+              <input type="checkbox" name="why-responsive" value="mobile">Mobile compatibility
+            </label>
+            <label>
+              <input type="checkbox" name="why-responsive" value="accessibility">Accessibility
+            </lable>
+            <label>
+              <input type="checkbox" name="why-responsive" value="aesthetics">Aesthetics
+            </label>
+          </fieldset>
+
+          <label class="questions">How many unique visitors does your website see per day?
+            <select name="visitation">
+              <option value="">Choose one</option>
+              <option value="less-than-50">Less than 50</option>
+              <option value="50-150">50-150</option>
+              <option value="150-300">150-300</option>
+              <option value="more-than-300">More than 300</option>
+            </select>
+          </label>
+
+          <label class="questions">What are your primary goals for how your website can serve your customer?
+            <textarea name="goals" rows="8" cols="80"></textarea>
+          </label>
+
+        </form>
+    </aside>
+    <footer class="footer">
+        <p>Created by Dave Beals</p>
+        <ul>
+          <li><a href="" title="E-mail">E-mail</a></li>
+          <li><a href="" title="Phone">Phone</a></li>
+        </ul>
+    </footer>
+  </body>
+</html>
