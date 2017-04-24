@@ -122,11 +122,27 @@ h2 {
   border: 2px solid blue;
 }
 
+.responsive {
+  margin: 2rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.responsive p {
+  margin: 1rem auto 1rem;
+}
+
 .more-bio {
   background-color: rgba(155, 247, 156, 1);
   margin: 0 auto 0;
   padding: 0.5rem 1rem 1rem 1rem;
   border: 2px solid green;
+  width: 50%;
+}
+
+.responsive-quiz {
+  margin: 0 auto 0;
+  padding: 0.5rem 1rem 1rem 1rem;
+  border: 2px solid darkblue;
   width: 50%;
 }
 
@@ -145,4 +161,10 @@ h2 {
   font-family: Tahoma;
   text-decoration: none;
   list-style: none;
+}
+
+.questions {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
